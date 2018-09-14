@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/topLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/colorPrimaryLight"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textViewIpAccess"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/uri"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editTextPort"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:hint="@string/port"
+                android:inputType="numberDecimal"
+                android:maxLength="4"
+                android:text="@string/port"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/batterylevel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Spinner
+                android:id="@+id/baterystate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textViewMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:text="@string/message"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:visibility="invisible"
+            tools:text="test" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="87dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/startwebserver"
+                    android:layout_width="@android:dimen/notification_large_icon_width"
+                    android:layout_height="@android:dimen/notification_large_icon_height"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="false"
+                    android:scaleType="fitEnd"
+                    app:srcCompat="@drawable/on_btn" />
+
+                <ImageButton
+                    android:id="@+id/btn_takepicture"
+                    android:layout_width="@android:dimen/notification_large_icon_height"
+                    android:layout_height="@android:dimen/notification_large_icon_height"
+                    android:layout_weight="1"
+                    android:scaleType="fitEnd"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/camera" />
+
+            </LinearLayout>
+
+            <TextureView
+                android:id="@+id/texture"
+                android:layout_width="200sp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+

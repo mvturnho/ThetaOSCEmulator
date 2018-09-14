@@ -1,0 +1,5 @@
+to connect to the androidemulator running the app use:
+
+C:\Users\mvturnho\AppData\Local\Android\Sdk\platform-tools>adb forward tcp:8080 tcp:8080
+
+then http://localhost:8080

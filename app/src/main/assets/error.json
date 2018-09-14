@@ -1,0 +1,7 @@
+{
+  "state": "error",
+  "error": {
+    "code": "unknownCommand",
+    "message": "Command executed is unknown."
+  }
+}

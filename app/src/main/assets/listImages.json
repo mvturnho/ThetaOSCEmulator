@@ -1,0 +1,10 @@
+{
+  "name": "camera.listImages",
+  "state": "done",
+  "results": {
+    "entries": [
+    ],
+    "totalEntries": 279,
+    "continuationToken": "277"
+  }
+}

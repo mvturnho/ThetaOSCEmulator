@@ -1,0 +1,8 @@
+{
+  "name": "camera.startSession",
+  "state": "done",
+  "results": {
+    "sessionId": "SID_0002",
+    "timeout": 180
+  }
+}

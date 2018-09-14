@@ -1,0 +1,8 @@
+{
+  "name": "camera.takePicture",
+  "state": "inProgress",
+  "id": "1",
+  "progress": {
+    "completion": 0
+  }
+}

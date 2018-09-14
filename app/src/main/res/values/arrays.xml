@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="battery_state">
+        <item>charging</item>
+        <item>charged</item>
+        <item>disconnect</item>
+    </string-array>
+    <string-array name="battery_level">
+        <item>0</item>
+        <item>33</item>
+        <item>67</item>
+        <item>100</item>
+    </string-array>
+</resources>
